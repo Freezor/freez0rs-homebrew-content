@@ -1,0 +1,103 @@
+{
+  "id": "freez0rs-homebrew-content",
+  "title": "Freez0r's Homebrew Content",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Gesammelte und übersetzte Homebrew WErke",
+  "authors": [
+    {
+      "name": "Freez0r"
+    }
+  ],
+  "packs": [
+    {
+      "name": "fhc-items",
+      "label": "FHC-Items",
+      "path": "packs/fhc-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fhc-hintergrunde",
+      "label": "FHC-Hintergründe",
+      "path": "packs/fhc-hintergrunde",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fhc-klassen",
+      "label": "FHC-Klassen",
+      "path": "packs/fhc-klassen",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fhc-klassenmerkmale",
+      "label": "FHC-Klassenmerkmale",
+      "path": "packs/fhc-klassenmerkmale",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fhc-unterklassen",
+      "label": "FHC-Unterklassen",
+      "path": "packs/fhc-unterklassen",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fhc-zauber",
+      "label": "FHC-Zauber",
+      "path": "packs/fhc-zauber",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fhc-talente",
+      "label": "FHC-Talente",
+      "path": "packs/fhc-talente",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
+}
