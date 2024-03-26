@@ -15,7 +15,10 @@
       }
     ]
   },
-  "description": "Gesammelte und übersetzte Homebrew WErke",
+  "description": "Gesammelte und übersetzte Homebrew Werke",
+  "scripts": [
+    "scripts/setup.js"
+  ],
   "authors": [
     {
       "name": "Freez0r"
@@ -93,6 +96,39 @@
       "label": "FHC-Talente",
       "path": "packs/fhc-talente",
       "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fhc-monster",
+      "label": "FHC-Monster",
+      "path": "packs/fhc-monster",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fhc-monstermerkmale",
+      "label": "FHC-Monstermerkmale",
+      "path": "packs/fhc-monstermerkmale",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fhc-wurfeltabellen",
+      "label": "FHC-Würfeltabellen",
+      "path": "packs/fhc-wurfeltabellen",
+      "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
