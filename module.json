@@ -15,7 +15,7 @@
       }
     ]
   },
-  "description": "Gesammelte und übersetzte Homebrew Werke",
+  "description": "This module is a collection of different homebrew content for D&amp;D 5e. \n\nIt contains new classes, subclasses, races, feats, spells, and items – all in German !It includes both content created by me and translations of existing, freely available homebrew materials.\n\nKey Features:\n\n23 new Backgrounds\n100+ common items\n2 classes\n40 subclasses\n120+ feats\n180+ spells\n100+ Monsters",
   "scripts": [
     "scripts/setup.js"
   ],
@@ -129,11 +129,11 @@
       "label": "FHC-Würfeltabellen",
       "path": "packs/fhc-wurfeltabellen",
       "type": "RollTable",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ]
 }
